@@ -13,5 +13,6 @@ test('Locators', async ({ page }) => {
  await page.locator('a#logout2').click(); // Click on the logout button
  await page.waitForTimeout(2000); // Wait for 2 seconds to see the result
 
+ //this is another way to click on the login button
 
 })
